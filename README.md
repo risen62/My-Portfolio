@@ -2,6 +2,25 @@
 
 A personal portfolio built with Next.js, React, TypeScript, and plain CSS. Warm ivory, forest green, locally bundled DM Sans and Instrument Serif fonts, and the original portrait give the site an editorial feel.
 
+[Live demo](https://risen62.github.io/My-Portfolio/)
+
+![Portfolio homepage](docs/preview.jpg)
+
+## Features
+
+- Responsive homepage with biography, education, experience, and skills.
+- Separate contact and hobbies pages with shared navigation.
+- Keyboard skip link, reduced-motion styles, and email copy feedback.
+- Static export and GitHub Pages deployment workflow.
+
+## Learning focus
+
+This project explores reusable React components, typed page data, responsive CSS, accessibility, and deploying a Next.js site under a repository subpath.
+
+## Where to make updates
+
+This standalone repository is the maintained home of the portfolio. Make code, documentation, and deployment changes here. The copy in [fullstack-learning](https://github.com/risen62/fullstack-learning/tree/main/My-Portfolio) is a historical learning snapshot and is not synchronized.
+
 ## Run locally
 
 Requires Node.js 20.9 or newer.
@@ -54,4 +73,4 @@ $env:NEXT_PUBLIC_BASE_PATH = '/My-Portfolio'
 npm run build
 ```
 
-For a custom domain or root URL, leave that variable unset. Publish the contents of `out/` (including `.nojekyll`) using your hosting provider. No deployment or changes to the GitHub repository are made by this local rebuild.
+For a custom domain or root URL, leave that variable unset. Publish the contents of `out/` (including `.nojekyll`) using your hosting provider. The included GitHub Actions workflow publishes the static export to GitHub Pages.
